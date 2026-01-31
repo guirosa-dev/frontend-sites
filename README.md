@@ -8,7 +8,7 @@ Bem-vindo ao meu repositório central de projetos. Aqui você encontrará aplica
 
 | Projeto | Descrição | Links |
 | :--- | :--- | :--- |
-| **🌌 Velaris Experience** | Site de agência de viagens de luxo. Foco em Bootstrap 5, formulários de login/cadastro funcionais e design dark mode. | [🌐 Ver Site](https://guirosa-dev.github.io/Sites/Site_de_Viagens/index.html) <br> [📂 Código](https://github.com/guirosa-dev/Sites/tree/main/Site_de_Viagens) |
+| **🌌 Velaris Experience** | Site de agência de viagens de luxo. Foco em Bootstrap 5, formulários de login/cadastro funcionais e sistema de dados com JS. | [🌐 Ver Site](https://guirosa-dev.github.io/Sites/Site_de_Viagens/index.html) <br> [📂 Código](https://github.com/guirosa-dev/Sites/tree/main/Site_de_Viagens) |
 | **💰 Cárbon** | Página a respeito de uma nova criptomoeda. Layout moderno focado em apresentação de dados e comunidade. | [🌐 Ver Site](https://guirosa-dev.github.io/Sites/Site_de_Criptomoedas/index.html) <br> [📂 Código](https://github.com/guirosa-dev/Sites/tree/main/Site_de_Criptomoedas) |
 
 ---
