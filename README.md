@@ -1,35 +1,49 @@
-📂 Meus Projetos Web
+# 🚀 Meus Projetos Web
 
-Bem-vindo ao meu repositório central de estudos e projetos front-end! Aqui organizo minhas criações, desde sites institucionais até aplicações experimentais, focando sempre em código limpo e design moderno.
-🚀 Projetos em Destaque
-Projeto     Descrição     Tecnologias     Demonstração
-Cárbon Site     Website de criptomoedas com 4 páginas e animações.     HTML5 e CSS3     [🔗 Abrir Site] (https://guirosa-dev.github.io/Sites/).
-🛠️ Tecnologias e Ferramentas
+Bem-vindo ao meu repositório de estudos e projetos de Front-End. Aqui concentro as aplicações que desenvolvi para aprimorar minhas habilidades em design, estruturação e interatividade.
 
-No desenvolvimento desses projetos, foco em aplicar as melhores práticas de mercado:
+---
 
-    HTML5: Estruturação semântica para melhor SEO.
-    CSS3: Layouts modernos (Flexbox/Grid) e animações personalizadas.
-    GitHub Pages: Hospedagem e deploy contínuo dos projetos.
-    Git: Controle de versão e organização de código.
+## 📂 Projetos Atuais
 
-🎨 Funcionalidades Comuns
+### 🌌 Velaris Experience
+Um site de agência de viagens com estética moderna e foco em UX (User Experience).
+- **Funcionalidades:** Fluxo completo de Login, Cadastro e exibição de Destinos.
+- **Tecnologias:** HTML5, CSS3, Bootstrap 5 e ícones interativos.
+- **Destaque:** Layout responsivo e sistema de navegação fluido.
 
-    Design Responsivo: Sites que se adaptam a qualquer tamanho de tela.
-    Interatividade: Efeitos de hover e transições suaves para melhor UX.
-    Organização Modular: CSS separado por páginas para fácil manutenção.
+### 💰 Site de Criptomoedas
+Interface focada no mercado financeiro digital com foco em apresentação de dados e comunidade.
+- **Funcionalidades:** Páginas de sobre, time e integração visual com redes sociais.
+- **Tecnologias:** HTML5, CSS avançado para layouts complexos.
 
-📂 Como navegar neste repositório
+---
 
-Cada pasta contém um projeto independente:
+## 🛠️ Tecnologias Utilizadas
 
-    Acesse a pasta desejada (ex: /site-carbon).
-    Lá você encontrará o código-fonte e o arquivo README.md específico daquele projeto.
+Este repositório demonstra minha proficiência em:
+* **HTML5:** Estruturação semântica de alta qualidade.
+* **CSS3:** Estilização moderna, layouts flexíveis e responsividade.
+* **Bootstrap 5:** Agilidade no desenvolvimento e componentes prontos (cards, modais, formulários).
+* **Git & GitHub:** Versionamento de código e fluxo de trabalho profissional.
 
-✉️ Contato
+---
 
-Se você gostou de algum projeto ou quer trocar uma ideia sobre desenvolvimento:
+## 🚀 Como visualizar os projetos
 
-LinkedIn GitHub
+Você pode visualizar os sites diretamente no seu navegador através do **GitHub Pages**:
+1. Vá em **Settings** no topo deste repositório.
+2. Clique em **Pages** na barra lateral esquerda.
+3. Em *Build and deployment*, escolha a branch `main` e a pasta `/(root)`.
+4. Clique em **Save**. Após alguns minutos, o link do seu portfólio estará pronto!
 
-⭐️ Dê uma estrela no repositório se algum projeto te inspirou!# Sites Repositório dedicado a meus sites criados
+---
+
+## 📧 Contato
+
+Se você gostou dos meus projetos ou quer trocar uma ideia sobre desenvolvimento:
+- **GitHub:** [guirosa-dev](https://github.com/guirosa-dev)
+- **LinkedIn:** [Seu Nome Aqui]
+
+---
+⭐️ *Se este repositório te ajudou ou te inspirou, sinta-se à vontade para dar uma estrela!*
