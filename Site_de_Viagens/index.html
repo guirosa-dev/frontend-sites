@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Velaris</title>
+</head>
+<body>
+
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand fw-bold" href="index.html">Velaris</a>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 bg-transparent text-light" type="search" placeholder="Buscar destino..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+<!--Carrosel-->
+   <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div class="ratio ratio-21x9">
+                <img src="img/carrosel1.jpg" class="object-fit-cover w-100" alt="cabanas">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Fuja do Óbvio</h5>
+                <p>Hospedagens exclusivas onde o único barulho é o da natureza</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="ratio ratio-21x9">
+                <img src="img/carrosel2.jpg" class="object-fit-cover w-100" alt="mapa">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Crie Memórias Reais</h5>
+                <p>Viagens desenhadas para quem valoriza cada segundo do trajeto</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="ratio ratio-21x9">
+                <img src="img/carrosel3.jpg" class="object-fit-cover w-100" alt="turistas">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Destinos Inexplorados</h5>
+                <p>Curadoria de lugares que você não encontra em guias comuns</p>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Próximo</span>
+    </button>
+</div>
+
+<div class="text-bg-dark py-5"></div>
+
+<!--Card-->
+<div class="text-bg-dark border-light "> 
+    <div class="card-body text-center p-5"> 
+        <h5 class="card-title display-3 fw-bold">A Velaris leva você além do horizonte.</h5> 
+        <p class="card-text fs-2">Não somos uma agência de viagens. Somos o seu passaporte para experiências que transformam a alma. Escolha o seu destino, nós cuidamos da liberdade.</p>
+    </div>
+</div>
+
+<div class="text-bg-dark py-5"></div>
+
+
+
+<!--Avaliações-->
+</section>
+    <div class="text-bg-dark "></div>
+    <section class="bg-dark py-5 border-top border-secondary border-opacity-25">
+    <div class="container py-4 text-center text-light">
+        <h2 class="fw-bold mb-5">O que dizem nossos viajantes</h2>
+        <div class="row g-5">
+            <div class="col-md-4">
+                <img src="img/ava1.jpg" class="rounded-circle mb-3 border border-secondary border-opacity-50 shadow" alt="Cliente 1" style="width: 100px; height: 100px; object-fit: cover;">
+                <p class="fst-italic text-secondary">"A Velaris mudou minha forma de ver o mundo. O suporte 24h foi impecável na minha viagem à Islândia."</p>
+                <h6 class="fw-bold">Ricardo S.</h6>
+            </div>
+            <div class="col-md-4">
+                <img src="img/ava2.jpg" class="rounded-circle mb-3 border border-secondary border-opacity-50 shadow" alt="Cliente 2" style="width: 100px; height: 100px; object-fit: cover;">
+                <p class="fst-italic text-secondary">"Roteiros que você não acha no Google. A exclusividade que prometem é real em cada detalhe."</p>
+                <h6 class="fw-bold">Marina L.</h6>
+            </div>
+            <div class="col-md-4">
+                <img src="img/ava3.jpg" class="rounded-circle mb-3 border border-secondary border-opacity-50 shadow" alt="Cliente 3" style="width: 100px; height: 100px; object-fit: cover;">
+                <p class="fst-italic text-secondary">"Minha expedição solo foi segura e transformadora. Nunca mais viajo com agências comuns."</p>
+                <h6 class="fw-bold">Tiago M.</h6>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!--Recursos-->
+<section class="bg-dark py-5">
+    <div class="container text-center">
+        <div class="row justify-content-center mb-5">
+            <div class="col-lg-8">
+                <h2 class="display-4 fw-bold text-white mb-3">Recursos Exclusivos</h2>
+                <p class="fs-5 text-secondary">
+                    Desenhamos cada detalhe da sua jornada com foco em liberdade, segurança e experiências que não estão nos guias comuns.
+                </p>
+                <div class="mt-4 border-top border-secondary border-opacity-25 w-25 mx-auto"></div>
+            </div>
+        </div>
+</section>
+
+<!--Colunas com Cards-->
+ <section class="bg-dark py-5 ">
+    <div class="container pb-5">
+        <div class="row g-4 justify-content-center">
+            
+            <div class="col-md-4">
+                <div class="card h-100 bg-dark text-light border-secondary border-opacity-50 shadow-lg">
+                    <img src="img/rec3.jpg" class="card-img-top object-fit-cover" alt="Curadoria" style="height: 250px;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <h4 class="card-title fw-bold">Curadoria</h4>
+                        <p class="card-text text-secondary flex-grow-1">Esqueça pacotes engessados. Criamos roteiros personalizados baseados no seu ritmo.</p>
+                        <a href="#" class="btn btn-light fw-bold w-100 mt-3 shadow-sm">Explorar Planos</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 bg-dark text-light border-secondary border-opacity-50 shadow-lg">
+                    <img src="img/rec2.jpg" class="card-img-top object-fit-cover" alt="Suporte" style="height: 250px;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <h4 class="card-title fw-bold">Suporte 24h</h4>
+                        <p class="card-text text-secondary flex-grow-1">Viaje com tranquilidade. Nossa equipe está a um clique para qualquer imprevisto.</p>
+                        <a href="#" class="btn btn-light fw-bold w-100 mt-3 shadow-sm">Saber Mais</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card h-100 bg-dark text-light border-secondary border-opacity-50 shadow-lg">
+                    <img src="img/rec1.jpg" class="card-img-top object-fit-cover" alt="VIP" style="height: 250px;">
+                    <div class="card-body d-flex flex-column p-4">
+                        <h4 class="card-title fw-bold">Acesso VIP</h4>
+                        <p class="card-text text-secondary flex-grow-1">Entradas prioritárias e estadias em locais que preservam a paz que você busca.</p>
+                        <a href="#" class="btn btn-light fw-bold w-100 mt-3 shadow-sm">Ver Destinos</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!--Rodapé-->
+<section class="bg-dark py-5 border-top border-secondary border-opacity-25">
+    <div class="container text-center text-white py-4">
+        <h2 class="fw-bold mb-3">Receba Tesouros no seu E-mail</h2>
+        <p class="text-secondary mb-4 fs-5">Assine nossa curadoria e receba destinos secretos diretamente na sua caixa de entrada.</p>
+        <div class="row justify-content-center">
+            <div class="col-md-6 col-lg-5">
+                <div class="input-group mb-3 shadow-lg">
+                    <input type="email" class="form-control bg-transparent text-white border-secondary" placeholder="Seu melhor e-mail" aria-label="E-mail">
+                    <button class="btn btn-light fw-bold px-4" type="button">Assinar Agora</button>
+                </div>
+                <small class="text-secondary opacity-50 small">Não enviamos spam. Apenas experiências valiosas.</small>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="bg-dark py-4 border-top border-secondary border-opacity-10 text-center text-secondary small">
+        <p class="mb-0">&copy; 2026 Velaris Experience. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>

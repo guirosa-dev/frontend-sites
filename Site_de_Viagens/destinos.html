@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <title>Velaris</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand fw-bold" href="index.html">Velaris</a>
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="destinos.html">Destinos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sobre.html">Sobre Nós</a></li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 bg-transparent text-light" type="search" placeholder="Buscar destino..." aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-dark p-5"></div>
+
+    <div class="bg-dark">
+        <div class="container">
+            <div class="card bg-dark text-light border-secondary border-opacity-25 shadow-lg">
+                <div class="card-body text-center p-5"> 
+                    <h1 class="display-2 fw-bold mb-3">Catálogo de Destinos</h1> <!--display aumenta a letra dos titulos-->
+                    <p class="text-secondary fs-5">Curadoria exclusiva de experiências ao redor do globo.</p> <!--fs aumenta a letra-->
+                </div>
+            </div>
+        </div>
+    </div>   
+
+    <div class="bg-dark p-5"></div>
+
+<!--Primeira seção de cards-->
+    <div class="bg-dark p-2">
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu12.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                            <span class="position-absolute top-0 start-0 m-2 badge bg-light text-dark fw-bold small">EXCLUSIVO</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Veneza, Itália</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Passeio Privativo de Gôndola</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Jantar com Vista para o Canal</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 9.400</span>
+                                <a href="detalhes.html?id=italia" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu1.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                            <span class="position-absolute top-0 start-0 m-2 badge bg-light text-dark fw-bold small">EXCLUSIVO</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Paris, França</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Piquenique nos Jardins da Torre Eiffel</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Cruzeiro Noturno pelo Rio Sena</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 9.500</span>
+                                <a href="detalhes.html?id=paris" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu8.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                            <span class="position-absolute top-0 start-0 m-2 badge bg-light text-dark fw-bold small">EXCLUSIVO</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Kyoto, Japão</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Caminhada pelo Túnel de Torii em Fushimi Inari</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Cerimônia Tradicional do Chá em Gion</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 12.400</span>
+                                <a href="detalhes.html?id=kyoto" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu4.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                            <span class="position-absolute top-0 start-0 m-2 badge bg-light text-dark fw-bold small">EXCLUSIVO</span>
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Santorini, Grécia</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Assistir ao Pôr do Sol em Oia</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Mergulho em Águas Termais Vulcânicas</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 10.400</span>
+                                <a href="detalhes.html?id=grecia" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+<!--Segunda seção de cards-->
+    <div class="bg-dark p-2">
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu11.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Reykjavik, Islândia</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Caça à Aurora Boreal em Jipe 4x4</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Banho Relaxante na Blue Lagoon</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 13.000</span>
+                                <a href="detalhes.html?id=islandia" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu2.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Cusco, Peru</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Tour Guiado pela Cidadela de Machu Picchu</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Degustação de Culinária Andina no Vale Sagrado</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 4.500</span>
+                                <a href="detalhes.html?id=peru" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu7.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Cairo, Egito</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Visita às Pirâmides de Gizé e Esfinge</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Jantar em Barco Tradicional no Rio Nilo</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 8.400</span>
+                                <a href="detalhes.html?id=egito" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu10.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Bali, Indonésia</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Aula de Yoga com Vista para os Terraços de Arroz</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Banho de Purificação no Templo Tirta Empul</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 11.000</span>
+                                <a href="detalhes.html?id=indonesia" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+<!--Terceira seção de cards-->
+    <div class="bg-dark p-2">
+        <div class="container text-center">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4">
+                
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu9.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Bariloche, Argentina</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Aula de Esqui ou Snowboard no Cerro Catedral</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Rota do Chocolate e Chá da Tarde Llao Llao</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 5.400</span>
+                                <a href="detalhes.html?id=argentina" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu3.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Nova York, EUA</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Patinação no Gelo no Central Park</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Assistir a um Musical na Broadway</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 9.400</span>
+                                <a href="detalhes.html?id=eua" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu5.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Lisboa, Portugal</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Passeio de Elétrico pelos Bairros Históricos</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Noite de Fados com Degustação de Vinhos e Queijos</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 7.500</span>
+                                <a href="detalhes.html?id=portugal" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100 bg-dark text-light border-secondary border-opacity-25 shadow-sm">
+                        <div class="position-relative">
+                            <img src="img/lu6.jpg" class="card-img-top object-fit-cover" style="height: 220px;" alt="Veneza, Itália">
+                        </div>
+                        <div class="card-body p-4 d-flex flex-column">
+                            <h5 class="fw-bold">Marraquexe, Marrocos</h5>
+                            <ul class="list-group list-group-flush bg-dark my-3">
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Tour de Compras e Especiarias no Souk</li>
+                                <li class="list-group-item bg-dark text-secondary border-secondary border-opacity-25 px-0 py-1 small">✔ Passeio de Camelo ao Pôr do Sol no Palmeiral</li>
+                            </ul>
+                            <div class="d-flex justify-content-between align-items-center mt-auto pt-3 border-top border-secondary border-opacity-25">
+                                <span class="fw-bold fs-5 text-white">R$ 9.500</span>
+                                <a href="detalhes.html?id=marrocos" class="btn btn-sm btn-light fw-bold px-3">Ver Detalhes</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </div> 
+    </div>
+
+    <footer class="bg-dark py-4 border-top border-secondary border-opacity-10 text-center text-secondary small">
+        <p class="mb-0">&copy; 2026 Velaris Experience. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
