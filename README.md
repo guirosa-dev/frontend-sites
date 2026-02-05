@@ -1,32 +1,35 @@
-# 🚀 Meu Portfólio de Desenvolvedor Web
+# Guilherme Rosa - Engenheiro de Software
 
-Bem-vindo ao meu repositório central de projetos. Aqui você encontrará aplicações focadas em **UI/UX**, **Responsividade** e **Clean Code**.
-
----
-
-## 🛠️ Projetos em Destaque
-
-| Projeto | Descrição | Links |
-| :--- | :--- | :--- |
-| **🌌 Velaris Experience** | Site de agência de viagens de luxo. Foco em Bootstrap 5, formulários de login/cadastro funcionais e sistema de dados com JS. | [🌐 Ver Site](https://guirosa-dev.github.io/Sites/Site_de_Viagens/index.html) <br> [📂 Código](https://github.com/guirosa-dev/Sites/tree/main/Site_de_Viagens) |
-| **💰 Cárbon** | Página a respeito de uma nova criptomoeda. Layout moderno focado em apresentação de dados e comunidade. | [🌐 Ver Site](https://guirosa-dev.github.io/Sites/Site_de_Criptomoedas/index.html) <br> [📂 Código](https://github.com/guirosa-dev/Sites/tree/main/Site_de_Criptomoedas) |
+### Sobre
+Repositório central contendo projetos de desenvolvimento web com foco em **interfaces modernas**, **responsividade** e **boas práticas de código**.  
+Os projetos abaixo foram desenvolvidos para estudo, prática e consolidação de conceitos de frontend.
 
 ---
 
-## 💻 Skills & Tecnologias
+### Principais Sites
 
-No desenvolvimento destes projetos, utilizei as seguintes ferramentas:
+-  Site: https://guirosa-dev.github.io/frontend-sites/Site_de_Viagens/
+-  Site: https://guirosa-dev.github.io/frontend-sites/Site_de_Criptomoeda/
 
-* **Front-End:** HTML5 semântico, CSS3 (Flexbox/Grid), Bootstrap 5, JavaScript.
-* **Versionamento:** Git e fluxo de trabalho via GitHub.
-* **Design:** Foco em interfaces limpas e experiência do usuário intuitiva.
 
----
+### Tecnologias Utilizadas
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="28" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="28" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="28" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="28" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="28" />
+</p>
 
-## 📫 Como me encontrar
-
-- **GitHub:** [guirosa-dev](https://github.com/guirosa-dev)
-- **LinkedIn:** [gui-rosa1](www.linkedin.com/in/gui-rosa1)
-
----
-_Desenvolvido com ☕ por Guilherme_Rosa
+## Contato
+<p align="left">
+  <a href="https://github.com/guirosa-dev">
+    <img src="https://img.shields.io/badge/GitHub-guirosa--dev-181717?style=for-the-badge&logo=github" />
+  </a>
+  <a href="https://www.linkedin.com/in/gui-rosa1">
+    <img src="https://img.shields.io/badge/LinkedIn-gui--rosa1-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://www.instagram.com/o_guilherme.r/">
+    <img src="https://img.shields.io/badge/Instagram-o__guilherme.r-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+</p>
