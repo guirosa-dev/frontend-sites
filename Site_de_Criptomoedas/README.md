@@ -13,7 +13,7 @@ Não há funcionalidades de blockchain ou integração com APIs. O projeto foi c
 </p>
 
 ### Como Executar
-1. Acesse o link abaixo
+1. Acesse o link abaixo <br></br>
 (https://guirosa-dev.github.io/frontend-sites/Site_de_Criptomoedas/)
 
 ---
