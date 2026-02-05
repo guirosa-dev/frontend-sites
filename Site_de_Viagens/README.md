@@ -1,6 +1,6 @@
 # Site de Viagens
 
-### Descrição
+### Sobre
 Este projeto consiste em um site institucional fictício sobre uma agência de viagens, desenvolvido com o objetivo de praticar HTML, CSS, JS e Bootstrap.  
 O foco do projeto está na construção da interface, organização do layout e aplicação de animações e efeitos para melhorar a experiência visual do usuário.
 
