@@ -16,7 +16,7 @@ Não há funcionalidades de blockchain ou integração com APIs. O projeto foi c
 
 ### Como Executar
 1. Acesse o link ao lado -->
-(https://guirosa-dev.github.io/frontend-sites/Site_de_Criptomoedas/)
+(https://guirosa-dev.github.io/frontend-sites/Site_de_Viagens/)
 
 ---
 ### Observações
