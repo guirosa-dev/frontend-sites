@@ -1,6 +1,6 @@
 # Site de Criptomoeda
 
-### Descrição
+### Sobre
 Este projeto consiste em um site institucional fictício sobre uma criptomoeda, desenvolvido com o objetivo de praticar HTML e CSS.  
 O foco do projeto está na construção da interface, organização do layout e aplicação de animações e efeitos de hover para melhorar a experiência visual do usuário.
 
