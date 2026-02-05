@@ -1,4 +1,4 @@
-# Guilherme Rosa - Engenheiro de Software
+# **Frontend Sites**
 
 ### Sobre
 Repositório central contendo projetos de desenvolvimento web com foco em **interfaces modernas**, **responsividade** e **boas práticas de código**.  
